@@ -4,13 +4,13 @@ import { Marker, GoogleApiWrapper } from 'google-maps-react'
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
  
-class SimpleMap extends Component {
+class SimpleMap6 extends Component {
   static defaultProps = {
     center: {
-      lat: 51.097327,
-      lng:  -114.019893
+      lat: 50.99073577622068,
+      lng:  -114.04011545888807
     },
-    zoom: 8
+    zoom: 17
   };
  
   render() {
@@ -24,26 +24,6 @@ class SimpleMap extends Component {
           defaultZoom={this.props.zoom}
         >
           <AnyReactComponent
-            lat={51.096812332554826}
-            lng={-114.03409704992106}
-            text="Timmies"
-          />
-          <AnyReactComponent
-            lat={51.06659875109058}
-            lng={-114.05796632649005}
-            text="Peter's Drive-in"
-          />
-          <AnyReactComponent
-            lat={51.05220718134113}
-            lng={-114.07800916990597}
-            text="Hutch Cafe"            
-          />
-          <AnyReactComponent
-            lat={51.03942795022586}
-            lng={-114.09535195880478}
-            text="Tokyo Station"             
-          />
-          <AnyReactComponent
             lat={50.99073577622068}
             lng={-114.04011545888807}
             text="Bennys Breakfast"          
@@ -55,4 +35,4 @@ class SimpleMap extends Component {
   }
 }
  
-export default SimpleMap;
+export default SimpleMap6;

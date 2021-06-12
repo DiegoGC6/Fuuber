@@ -7,7 +7,7 @@
   height: 100%;
   display: flex;
   justify-content: center;
-  background: linear-gradient(to left, #6699cc,rgb(161, 237, 241) 50%, rgb(161, 237, 241) 50%, #6699cc 75%);
+  background: linear-gradient(to left, #1d910e,rgb(23, 230, 68) 50%, rgb(23, 230, 68) 50%, #1a6410 75%);
 }
 .Margin{
   padding-top: 10px;
@@ -21,12 +21,13 @@
   display: flex;
   width: 5rem;
   justify-content: center;
-  background: linear-gradient(to left, #6699cc,rgb(161, 237, 241) 50%, rgb(161, 237, 241) 50%, #6699cc 75%);
+  background: linear-gradient(to left, #1a6410,rgb(23, 230, 68) 50%, rgb(23, 230, 68) 50%, #1a6410 75%);
   }
 
   .center {
+    padding-top: 20px;
     display: block;
-    margin-left: auto;
+    margin-left: 550px;
     margin-right: auto;
     width: 80%;
     
@@ -44,5 +45,5 @@
   display: block;
   width: 5rem;
   justify-content: center;
-  background: linear-gradient(to left, #6699cc,rgb(161, 237, 241) 50%, rgb(161, 237, 241) 50%, #6699cc 75%);
+  background: linear-gradient(to left, #1a6410,rgb(23, 230, 68) 50%, rgb(23, 230, 68) 50%, #1a6410 75%);
   }
