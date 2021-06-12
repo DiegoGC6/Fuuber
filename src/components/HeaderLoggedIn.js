@@ -2,9 +2,7 @@ import React from 'react'
 import { LinkContainer } from 'react-router-bootstrap'
 import { Container, Navbar, Nav } from 'react-bootstrap'
 
-
-
-const Header = () => {
+const HeaderLoggedIn = () => {
   return (
     <header>
       <Navbar style={{backgroundColor: 'darkGreen'}} variant='dark' expand='lg' collapseOnSelect>
@@ -19,14 +17,10 @@ const Header = () => {
           <Navbar.Collapse id='basic-navbar-nav'>
             <Nav className='ml-auto'>
               {/* the icons are from font-awesome in cdnjs.com */}
-              <LinkContainer to='/login'>
+
+              <LinkContainer to='/signout'>
                 <Nav.Link>
-                  <i className='fas fa-user'></i>Sign in
-                </Nav.Link>
-              </LinkContainer>
-              <LinkContainer to='/register'>
-                <Nav.Link>
-                  <i className='fas fa-user-plus'></i>Sign Up
+                  <i className='fas fa-sign-out-alt'></i>Sign Out
                 </Nav.Link>
               </LinkContainer>
             </Nav>
@@ -37,5 +31,6 @@ const Header = () => {
   )
 }
 
-export default Header
+export default HeaderLoggedIn
+
 
