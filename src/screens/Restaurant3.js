@@ -1,24 +1,22 @@
 import React from "react";
 import { LinkContainer, Link } from "react-router-bootstrap";
 import { Row, Container, Button, NavBar, Nav } from "react-bootstrap";
-//import kinhhypicture from "../images/KinhHyChau.jpg";
-//import diegopicture from "../images/diegotwo.jpeg";
-import HeaderLoggedIn from "./HeaderLoggedIn";
-//import markpicture from "../images/Mark_Peterson.jpeg";
-//import marcpicture from "../images/Marc_Ranger.jpg";
-import './containers.css'
-import SimpleMap from '../components/map'
 
-function Restaurant1() {
+import HeaderLoggedIn from "../components/HeaderLoggedIn";
+
+import '../components/containers.css'
+import SimpleMap4 from '../components/Map4'
+
+function Restaurant3() {
   return (
     <>
       <HeaderLoggedIn />
-      <Container>
+      <Container style={{paddingTop: "20px"}}>
         {/* <main role="main"> */}
 
         <section class="jumbotron text-center">
           <div class="container">
-            <h1 class="jumbotron-heading">Tim Hortons</h1>
+            <h1 class="jumbotron-heading">Hutch Cafe</h1>
             <p class="lead text-muted">
               A place to get your Coffee
             </p>
@@ -38,7 +36,7 @@ function Restaurant1() {
             </p>
           </div>
         </section>
-      <div style= {{background: "linear-gradient(to left, #6699cc,rgb(161, 237, 241) 50%, rgb(161, 237, 241) 50%, #6699cc 75%)"}}>
+      <div style= {{background: "linear-gradient(to left, #1d910e,rgb(23, 230, 68) 50%, rgb(23, 230, 68) 50%, #1d910e 75%)"}}>
         <div class="album py-5">
           <div class="container">
             <div class="d-flex justify-content-between align-items-center">
@@ -88,7 +86,7 @@ function Restaurant1() {
                   </div>
                 </div>
               </div>
-              <SimpleMap />
+              <SimpleMap4 />
               </div>
           </div>
         </div>
@@ -119,4 +117,4 @@ function Restaurant1() {
     </>
   );
 }
-export default Restaurant1;
+export default Restaurant3;

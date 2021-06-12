@@ -13,19 +13,19 @@ function CardOne() {
     <div class={{Card}} style={{width: "18rem"}}>
     <div class="card-body">
     <LinkContainer to='/restaurant1'>
-      <Nav.Link><h5 class="card-title">Restaurant 1</h5></Nav.Link>
+      <Nav.Link><h5 class="card-title">Tim Hortons</h5></Nav.Link>
     </LinkContainer>
-    <LinkContainer to='/logged'>
-      <Nav.Link><h5 class="card-title">Restaurant 1</h5></Nav.Link>
+    <LinkContainer to='/restaurant2'>
+      <Nav.Link><h5 class="card-title">Peter's Drive-in</h5></Nav.Link>
     </LinkContainer>
-    <LinkContainer to='/logged'>
-      <Nav.Link><h5 class="card-title">Restaurant 1</h5></Nav.Link>
+    <LinkContainer to='/restaurant3'>
+      <Nav.Link><h5 class="card-title">Hutch Cafe</h5></Nav.Link>
     </LinkContainer>
-    <LinkContainer to='/logged'>
-      <Nav.Link><h5 class="card-title">Restaurant 1</h5></Nav.Link>
+    <LinkContainer to='/restaurant4'>
+      <Nav.Link><h5 class="card-title">Tokyo Station</h5></Nav.Link>
     </LinkContainer>
-    <LinkContainer to='/logged'>
-      <Nav.Link><h5 class="card-title">Restaurant 1</h5></Nav.Link>
+    <LinkContainer to='/restaurant5'>
+      <Nav.Link><h5 class="card-title">Bennys Breakfast</h5></Nav.Link>
     </LinkContainer>  
     </div>
   </div>
