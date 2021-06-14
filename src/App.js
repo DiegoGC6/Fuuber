@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import './App.css';
 import Home from './screens/home'
 import LoggedIn from './screens/LoggedIn'
+import ClaimReward from './screens/ClaimReward'
 import Restaurant1 from './screens/Restaurant1'
 import Restaurant2 from './screens/Restaurant2'
 import Restaurant3 from './screens/Restaurant3'
@@ -21,6 +22,7 @@ function App() {
             <Route path='/restaurant3' exact component={Restaurant3} />
             <Route path='/restaurant4' exact component={Restaurant4} />
             <Route path='/restaurant5' exact component={Restaurant5} />
+            <Route path='/claim-reward' exact component={ClaimReward} />
           </Switch>  
       </Router>
     </>        

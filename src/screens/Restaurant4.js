@@ -26,7 +26,7 @@ function Restaurant4() {
             <LinkContainer to='/logged'>
       <Nav.Link class="btn btn-primary my-2"><h5 class="card-title">Scan code</h5></Nav.Link>
     </LinkContainer>
-    <LinkContainer to='/logged'>
+    <LinkContainer to='/claim-reward'>
       <Nav.Link class="btn btn-secondary my-2"><h5 class="card-title">Claim Reward</h5></Nav.Link>
     </LinkContainer>
               {/* <a href="#" class="btn btn-primary my-2">
@@ -38,7 +38,7 @@ function Restaurant4() {
             </p>
           </div>
         </section>
-      <div style= {{background: "linear-gradient(to left, #1d910e,rgb(23, 230, 68) 50%, rgb(23, 230, 68) 50%, #1d910e 75%)"}}>
+      <div style= {{background: "#f7f7f9"}}>
         <div class="album py-5">
           <div class="container">
             <div class="d-flex justify-content-between align-items-center">
@@ -58,11 +58,11 @@ function Restaurant4() {
               <div class="col-md-4">
                 <div>
                   
-                  <div class="card-body">
+                  {/* <div class="card-body">
                     <h3>Description of Restaurant</h3>
                     <p class="card-text">CO-FOUNDER AND PRESIDENT</p>
                     <div class="d-flex justify-content-between align-items-center"></div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -81,11 +81,11 @@ function Restaurant4() {
               <div class="col-md-4">
                 <div>
                   
-                  <div class="card-body">
+                  {/* <div class="card-body">
                     <h3>Display Marker Here</h3>
                     <p class="card-text">DIRECTOR OF OFFICE SUPPLIES REPLENISHMENT
                     </p>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <SimpleMap5 />
